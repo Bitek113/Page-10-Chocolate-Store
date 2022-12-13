@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navi{
+    background-color: rgba(119, 115, 115, 0);
+}
+
+.main-section {
+    background: url("img/showcase_bg.jpg") center no-repeat fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    position: relative;
+    z-index: -1;
+}
+#nav-bars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+} 
+
+.experience {
+    height: 50vh;
+    background: url("img/bg-2.jpg") no-repeat;
+    background-position: right;
+
+}
+
+.bg-pink {
+    background-color: #F7F7F9;
+}
+
+
+.prefix {
+    font-size: 7rem;
+    color: #e65b5b;
+    float: left;
+}
+
+.food-menu {
+    min-height: 114vh;
+    background: url("img/line_art.jpg") center no-repeat;
+
+}
+
+.img-box {
+    width: 160px;
+    padding: 16px;
+}
+
+.picture-slide {
+    height: auto;
+    background: url("img/slider-banner-1.jpg") center  no-repeat;
+    background-size: contain;
+ 
+}
+
+.picture-slide:nth-child(1) {
+    background: url("img/slider-banner-2.jpg") center  no-repeat;
+}
+
+.chief-section {
+    background-color: red;
+    height: 75vh;
+    background: url("img/home-6.png") no-repeat;
+    background-position: 80% top;
+}
+
+.information {
+  
+    background: url("img/bg.jpg") fixed;
+    background-position: contain;    
+}
+
+i {
+    font-size: 3rem;
+}
+
+.testimonial-box {
+    border: 1px solid rgb(170, 170, 170);
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+   
+  }
+
+  .link-tag {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 10px;
+   
+    line-height: 2.2;
+   
+  }
+
+  .link-tag:hover {
+    color: #e65b5b;
+  }
+  
+  .posts-links:hover {
+    color: #25f130;
+
+  }
+
+  .special-text {
+    color: #e6be99;
+    font-family: "Satisfy",Helvetica,Arial,Lucida,sans-serif;
+    letter-spacing: 3px;
+  }
+
+  @media (max-width: 1060px) {
+    .img-box {
+        width: 300px;
+        padding: 16px;
+    }
+}
